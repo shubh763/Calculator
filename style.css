@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(45deg, #9a5e1a, #3b639b);
+}
+
+#display{
+    width: 370px;
+    height: 520px;
+    border: 1px solid white;
+    text-align: center;
+    margin: 55px;
+    margin-left: 33%;
+    border-radius: 4px;
+}
+
+#show{
+    background: transparent;
+    border: none;
+    width: 320px;
+    height: 40px;
+    color: black;
+    margin: 21px;
+    margin-top: 11px;
+    text-align: right;
+    font-size: 30px;
+}
+::placeholder{
+    color: white;
+    font-size: 28px;
+}
+
+.btn{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: black;
+    box-shadow: -4px -4px 10px rgba(201, 201, 201, 0.363);
+    margin: 10px;
+}
+
